@@ -16,7 +16,7 @@ body {
 .container-real {
     max-width: 1380px;
     margin: 0px auto;
-    padding: 0px 50px;
+    padding: 0px 40px;
 }
 
 /* Nave_bar_start */
@@ -111,12 +111,103 @@ body {
 
 
 }
-.iag
-{
-    width: 785px;
+
+.hero-home {
+    width: 714px;
+    height: 645px;
+    margin-top: 20px;
 }
 
+.her-head2 {
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+.her-head2 h1 {
+    font-family: 'poppins-bold';
+    font-size: 67px;
+    /* font-weight: 600; */
+
+}
+
+.her-head2 h2 {
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.her-head2 p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+
+}
+
+.email-box input {
+    width: 400px;
+}
+
+.email-box button {
+    margin-left: -90px;
+    background-color: #000;
+    color: #fff;
+}
+
+ @media only screen and (max-width:px) {
+
+    .hero_section {
+        background: rgb(193, 222, 232);
+        background: linear-gradient(90deg, rgba(193, 222, 232, 1) 20%, rgba(251, 217, 185, 1) 89%);
+        height: 500px;
+        border-radius: 25px;
+        margin-top: 30px;
+        background-image: url(assets/Images/background.png);
 
 
+    } 
+
+    .hero-home {
+        width: 690px;
+        height: 590px;
+    }
+
+    .her-head2 h1 {
+        font-family: 'poppins-bold';
+        font-size: 50px;
+    
+
+    }
+
+    .her-head2 h2 {
+        font-family: 'poppins';
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .her-head2 p {
+        font-family: 'poppins';
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 40px;
+
+    }
+
+    .email-box input {
+        width: 350px;
+    }
+
+    .email-box button {
+        margin-left: -55px;
+        background-color: #000;
+        color: #fff;
+    }
+
+
+
+
+}
 
 /* Heroo Section  End  */
