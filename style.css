@@ -179,6 +179,7 @@ body {
 
 @media only screen and (max-width:1045px) {
     .hero_section {
+        height: 950px;
         border-radius: 25px;
         margin-top: 10px;
         background-image: url(assets/Images/background.png);
@@ -230,6 +231,16 @@ body {
 
 @media only screen and (max-width:366px) 
 {
+    .hero_section {
+     height: 600px;
+        border-radius: 25px;
+        margin-top: 10px;
+        background-image: url(assets/Images/background.png);
+        text-align: center;
+
+
+    }
+
     .her-head2 {
         text-align: center;
         margin-top: 50px;
