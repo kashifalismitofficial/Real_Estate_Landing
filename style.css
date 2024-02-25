@@ -269,3 +269,47 @@ font-size: 39px;
 }
 
 /* Heroo Section  End  */
+
+/* info section start */
+.pra{
+    margin-top: 100px;
+    text-align: center;
+}
+.info-img > img
+{
+    color: #58BF52;
+    width: 65px;
+    margin: 30px 10px;
+
+}
+.info-head
+{
+    font-size: 38px;
+    text-align: center;
+    font-family: 'poppins-bold';
+}
+.info-head01 
+{
+    width: 350px;
+}
+.info-head01 > h2
+{
+    font-size: 28px;
+    font-family: 'poppins-bold';
+
+}
+.info-head01 > p
+{
+    font-size: 16px;
+    font-family: 'poppins';
+    margin-top: 25px;
+
+}
+.p-l
+{
+    padding-left: 10px;
+}
+
+
+
+/* info section  End */
