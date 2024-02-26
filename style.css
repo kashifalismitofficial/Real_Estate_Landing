@@ -307,21 +307,23 @@ body {
 .p-l {
     padding-left: 10px;
 }
-@media only screen and (max-width:366px)
-{
+
+@media only screen and (max-width:366px) {
     .info-head {
         font-size: 30px;
         text-align: center;
         font-family: 'poppins-bold';
-    }  
-    .info-head01>h2{
+    }
+
+    .info-head01>h2 {
         font-size: 24px;
     }
-    .info-head01>p 
-    {
+
+    .info-head01>p {
         margin-top: 10px;
     }
 }
+
 /* info section  End */
 
 /* card section start */
@@ -359,21 +361,22 @@ body {
     padding-right: 15px;
 }
 
-.card-img-all  {
+.card-img-all {
     width: 389px;
 }
 
 .review-img {
     width: 100%;
 }
-@media only screen and (max-width:366px)
-{
+
+@media only screen and (max-width:366px) {
     .info-head-card {
         font-size: 34px;
         text-align: left;
         font-family: 'poppins-bold';
         margin-bottom: 30px;
     }
+
     .card-content {
         padding-top: 35px;
         padding-left: 14px;
@@ -381,9 +384,73 @@ body {
         margin-top: -13px;
         width: 378px;
     }
-    .card-img-all  {
+
+    .card-img-all {
         width: 334px;
     }
 
 }
+
 /* card section end    */
+
+/* global section start */
+.margin-t {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.head-global {
+    font-size: 50px;
+    font-family: 'poppins-bold';
+    text-align: center;
+   
+}
+
+.global-content h3 {
+    font-size: 38px;
+
+    font-weight: 900;
+}
+
+.global-content p {
+    width: 417px;
+}
+
+.btn-balck {
+    background-color: #1F1F1F;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 17px 35px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 17px 35px;
+}
+@media only screen and (max-width:1290px)
+{
+    .head-global {
+        font-size: 50px;
+        font-family: 'poppins-bold';
+        text-align: center;
+        padding: 10px 187px;
+    }
+}
+@media only screen and (max-width:366px) {
+    .head-global {
+        font-size: 33px;
+        padding: 10px 0px;
+    }
+    .global-content h3
+    {
+        font-size: 26px;
+    }
+    .global-content p {
+        width: 333px;
+    }
+}
+
+/* global section  end  */
