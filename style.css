@@ -403,13 +403,13 @@ body {
     font-size: 50px;
     font-family: 'poppins-bold';
     text-align: center;
-   
+
 }
 
 .global-content h3 {
-    font-size: 38px;
-
+    font-size: 40px;
     font-weight: 900;
+    padding-top: 50px;
 }
 
 .global-content p {
@@ -430,26 +430,54 @@ body {
     font-size: 16px;
     padding: 17px 35px;
 }
-@media only screen and (max-width:1290px)
-{
+
+.global-num>h3 {
+    margin-top: 90px;
+    font-size: 67px;
+    font-family: 'poppins-bold';
+    margin-bottom: 0px;
+}
+
+
+
+
+.global-right img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+@media only screen and (max-width:1290px) {
     .head-global {
-        font-size: 50px;
         font-family: 'poppins-bold';
         text-align: center;
         padding: 10px 187px;
     }
 }
+
 @media only screen and (max-width:366px) {
     .head-global {
         font-size: 33px;
         padding: 10px 0px;
     }
-    .global-content h3
-    {
+
+    .global-content h3 {
         font-size: 26px;
     }
+
     .global-content p {
         width: 333px;
+    }
+
+    .global-num>h3 {
+        margin-top: 30px;
+        
+        font-size: 45px;
+        font-family: 'poppins-bold';
+        margin-bottom: 0px;
+    }
+    .global-num
+    {
+        margin-bottom: 30px;
     }
 }
 
