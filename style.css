@@ -250,7 +250,7 @@ body {
     }
 
     .email-box input {
-        width: 219px;
+        width: 256px;
         padding: 0px;
     }
 
@@ -262,6 +262,7 @@ body {
         font-family: 'poppins';
         font-size: 14px;
         margin-top: 10px;
+        padding: 10px 12px;
     }
 }
 
@@ -306,7 +307,21 @@ body {
 .p-l {
     padding-left: 10px;
 }
-
+@media only screen and (max-width:366px)
+{
+    .info-head {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'poppins-bold';
+    }  
+    .info-head01>h2{
+        font-size: 24px;
+    }
+    .info-head01>p 
+    {
+        margin-top: 10px;
+    }
+}
 /* info section  End */
 
 /* card section start */
@@ -327,7 +342,7 @@ body {
 .card-content {
 
     padding-top: 35px;
-    padding-left: 25px;
+    padding-left: 14px;
     padding-right: 25px;
     margin-top: -13px;
     width: 415px;
@@ -351,5 +366,24 @@ body {
 .review-img {
     width: 100%;
 }
+@media only screen and (max-width:366px)
+{
+    .info-head-card {
+        font-size: 34px;
+        text-align: left;
+        font-family: 'poppins-bold';
+        margin-bottom: 30px;
+    }
+    .card-content {
+        padding-top: 35px;
+        padding-left: 14px;
+        padding-right: 25px;
+        margin-top: -13px;
+        width: 378px;
+    }
+    .card-img-all  {
+        width: 334px;
+    }
 
+}
 /* card section end    */
