@@ -450,7 +450,7 @@ body {
     .head-global {
         font-family: 'poppins-bold';
         text-align: center;
-        padding: 10px 187px;
+        padding: 10px 113px;
     }
 }
 
@@ -470,15 +470,183 @@ body {
 
     .global-num>h3 {
         margin-top: 30px;
-        
+
         font-size: 45px;
         font-family: 'poppins-bold';
         margin-bottom: 0px;
     }
-    .global-num
-    {
+
+    .global-num {
         margin-bottom: 30px;
     }
 }
 
 /* global section  end  */
+
+/* Last section start */
+.hero_section-last {
+    height: 457px;
+    border-radius: 25px;
+    background-image: url(assets/Images/last-background.png);
+
+
+}
+
+.hero-home-last {
+    width: 606;
+    height: 557px;
+    margin-top: -43px;
+}
+
+.her-head2-last {
+    margin-left: 30px;
+    margin-top: 62px;
+}
+
+.her-head2-last h1 {
+    font-family: 'poppins-bold';
+    font-size: 45px;
+    /* font-weight: 600; */
+
+}
+
+.her-head2-last h2 {
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.her-head2-last p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    /* margin-right: 79px; */
+
+}
+
+.email-box {
+    display: flex;
+
+}
+
+.email-box input {
+    width: 320px;
+    padding: 0px;
+}
+
+.email-box button {
+    margin-left: -50px;
+    background-color: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width:1249px) {
+    .hero-home-last {
+        width: 680px;
+        height: 615px;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width:1156px) {
+    .hero-home-last {
+        width: 620px;
+        margin-top: -45px;
+
+    }
+}
+
+@media only screen and (max-width:1045px) {
+    .hero_section-last {
+        height: 641px;
+        border-radius: 25px;
+        margin-top: 10px;
+        background-image: url(assets/Images/background.png);
+        text-align: center;
+
+
+    }
+
+    .her-head2-last {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0px;
+
+    }
+
+
+    .email-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:685px) {
+    .hero-home-last {
+        width: 520px;
+        height: 490px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    .hero-home-last {
+        width: 480px;
+        height: 410px;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width:506px) {
+    .hero-home-last {
+        width: 400px;
+        height: 380px;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width:366px) {
+    .hero_section-last {
+        height: 600px;
+        border-radius: 25px;
+        margin-top: 10px;
+        background-image: url(assets/Images/background.png);
+        text-align: center;
+
+
+    }
+
+    .her-head2-last {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0px;
+
+    }
+
+    .her-head2-last h1 {
+        font-size: 33px;
+    }
+
+    .hero-home-last {
+        width: 300px;
+        height: 280px;
+        padding: 0px 10px;
+        margin-top: 20px;
+    }
+
+    .email-box input {
+        width: 256px;
+        padding: 0px;
+    }
+
+    .her-head2-last p {
+        font-family: 'poppins';
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 10px 12px;
+    }
+}
+
+/* Last section  end  */
